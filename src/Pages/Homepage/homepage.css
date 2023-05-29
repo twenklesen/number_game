@@ -1,0 +1,34 @@
+
+.main-ctn{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.increase , .decrease{
+    
+    width: 220px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+
+}
+.increase{
+    background-color: green;
+    color: white;
+}
+.decrease{
+    background-color: red;
+    color: white;
+}
+.heading{
+    font-size: 52px;
+    color: white;
+    font-family: sans-serif;
+}
